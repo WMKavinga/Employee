@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//Comment to Controller class
+
 @RestController
 @RequestMapping("api/v1")
 public class EmployeeController {
@@ -44,7 +44,7 @@ public class EmployeeController {
         employeeRepository.deleteById(id);
         return "Employee Deleted";
     }
-//Get Mapping
+
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){
        return employeeRepository.findAll();
