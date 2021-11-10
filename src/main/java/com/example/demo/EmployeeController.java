@@ -44,7 +44,7 @@ public class EmployeeController {
         employeeRepository.deleteById(id);
         return "Employee Deleted";
     }
-
+//Get Mapping
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){
        return employeeRepository.findAll();
