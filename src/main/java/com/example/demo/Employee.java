@@ -25,7 +25,7 @@ public class Employee {
     }
 
 
-//Getters Setters
+//Getters
     public String getfName() {
         return fName;
     }
@@ -37,7 +37,7 @@ public class Employee {
     public String getlName() {
         return lName;
     }
-
+//Setters
     public void setlName(String lName) {
         this.lName = lName;
     }
