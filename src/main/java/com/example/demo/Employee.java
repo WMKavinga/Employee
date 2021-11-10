@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.annotation.Generated;
 
-
+//model
 @Data
 @Document
 public class Employee {
